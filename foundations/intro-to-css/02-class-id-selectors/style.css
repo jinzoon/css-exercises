@@ -1,0 +1,25 @@
+
+.element-2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.element-3 {
+    font-size: 24px;
+}
+
+.element-4 {
+background-color: #90ee90;
+font-size: 24x;
+font-weight: bold;
+}
+
+p {
+background-color: #ffb6c1;
+font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+
+* **The second element**: blue text and a font size of 36px
+* **The third element**: in addition to the styles for all odd numbered elements, add a font size of 24px
+* **The fourth element**: a light green background, a font size of 24px, and bold-->
