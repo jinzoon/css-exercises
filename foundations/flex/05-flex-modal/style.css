@@ -4,6 +4,10 @@ html, body {
   height: 100%;
 }
 
+* { 
+  outline: 2px  red;
+}
+
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -15,11 +19,35 @@ body {
   justify-content: center;
 }
 
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  gap: 6px;
+}
+
+.container-center {
+  flex: auto;
+  
+}
+
+.header {
+  font-weight: 700;
+  font-size: large;
+  margin-left: 10px;
+}
+
+.text {
+  margin: 10px;
+}
+
+.continue {
+  margin-left: 10px;
+
 }
 
 .icon {
@@ -60,10 +88,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  
 }
